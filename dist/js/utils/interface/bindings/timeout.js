@@ -1,0 +1,2 @@
+define(["utils/timeout","utils/simpleRandomize"],function(n,o){return function(t,i){var u=function(){var t,u=o(i.duration)||0;return{on:function(o){t=n(u,function(){o({},"timeout")})},off:function(){clearTimeout(t)}}}();t.on=u.on,t.off=u.off}});
+//# sourceMappingURL=timeout.js.map

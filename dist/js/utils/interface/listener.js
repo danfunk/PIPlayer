@@ -1,0 +1,2 @@
+define(["./binder","./triggerEvent"],function(n,t){return function(e,i){this.handle=e.handle,n(this,e),this.on(function(n,h){t(n,h,e,i.getLatency())}),this.destroy=this.off}});
+//# sourceMappingURL=listener.js.map

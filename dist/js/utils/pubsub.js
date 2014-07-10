@@ -1,0 +1,2 @@
+define(["underscore"],function(n){var u={},e={},r={};return u.publish=function(r,c){e[r]&&n.each(e[r],function(n){n.apply(u,c||[])})},u.subscribe=function(u,c){var i;return n.isFunction(c)?i=[]:(i=arguments[1],c=arguments[2]),e[u]||(e[u]={},r[u]=0),e[u][r[u]++]=c,i.push([u,c]),[u,c]},u.unsubscribe=function(u){var r=u[0];e[r]&&n.each(e[r],function(n,c){n==u[1]&&delete e[r][c]})},u});
+//# sourceMappingURL=pubsub.js.map

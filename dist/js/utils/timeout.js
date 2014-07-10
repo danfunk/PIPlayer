@@ -1,0 +1,2 @@
+define(["underscore"],function(n){return function(){var r=arguments[0],e=n.isArray(arguments[1])?arguments[1]:[],u=n.isFunction(arguments[1])?arguments[1]:arguments[2],t=0;return r?(t=setTimeout(u,r),e.push(t)):u.call(),t}});
+//# sourceMappingURL=timeout.js.map

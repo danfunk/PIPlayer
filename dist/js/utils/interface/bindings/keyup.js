@@ -1,0 +1,2 @@
+define(["jquery"],function(n){var e=function(e){var t=n.isArray(e.key)?e.key:[e.key],o="keyup.interface."+e.handle,i=n.map(t,function(n){return"string"==typeof n?n.toUpperCase().charCodeAt(0):n});this.on=function(e){n(document).on(o,function(t){-1!==n.inArray(t.which,i)&&e(t,"keyup")})},this.off=function(){n(document).off(o)}};return function(t,o){n.extend(t,new e(o))}});
+//# sourceMappingURL=keyup.js.map

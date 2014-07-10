@@ -1,0 +1,2 @@
+define(["../data/categories"],function(e){return function(t,o,r){var a=e[t],n=a.margin||0;if(!a)throw new Error(t+" is not a category name (or has not been loaded yet)");var i=a.title||a.name,c={media:i,css:a.titleCss||{fontSize:"1.3em",color:"black"},height:a.height||5};switch(o){case"left":c.location={left:2+n,top:r};break;case"right":c.location={right:2+n,top:r};break;case"center":c.location={top:r};break;default:throw new Error("Unknow side in category")}return c}});
+//# sourceMappingURL=category.js.map

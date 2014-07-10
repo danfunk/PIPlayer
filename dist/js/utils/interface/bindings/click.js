@@ -1,0 +1,2 @@
+define(["jquery","utils/is_touch"],function(n,e){return function(t,o){var a=e?"touchstart":"mousedown",c=o.element?!1:!0,f=n(o.element);t.on=function(e){var t=function(n){e(n,a)};c?n(document).on(a+".interface",'[data-handle="'+o.stimHandle+'"]',t):f.css(o.css||{}).appendTo("#canvas").on(a+".interface",t)},t.off=function(){c?n(document).off(a+".interface",'[data-handle="'+o.stimHandle+'"]'):f.remove()}}});
+//# sourceMappingURL=click.js.map

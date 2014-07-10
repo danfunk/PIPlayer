@@ -1,0 +1,2 @@
+define(["underscore","./settings"],function(e,r){return function(n,s){var t;return e.isString(r.base_url)?t=r.base_url:e.isObject(r.base_url)&&(t=r.base_url[s]),t?"/"!=t[t.length-1]&&(t+="/"):t="",t+n}});
+//# sourceMappingURL=build_url.js.map

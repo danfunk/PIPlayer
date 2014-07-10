@@ -1,0 +1,2 @@
+define(["jquery","./action_list"],function(n,r){return function(t,e){var i=!0;if(!t)throw new Error("There is an interaction without actions!!");return t=n.isArray(t)?t:[t],n.each(t,function(n,t){if(!r[t.type])throw new Error("unknown action: "+t.type);"endTrial"===t.type&&(i=!1),r[t.type](t,e)}),i}});
+//# sourceMappingURL=action.js.map

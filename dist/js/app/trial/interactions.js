@@ -1,0 +1,2 @@
+define(["jquery","utils/pubsub","./evaluate","./action"],function(n,i,t,u){var c=[],e=function(i,c){n.each(i,function(n,i){return t(i.conditions,c)?u(i.actions,c):void 0})};return{activate:function(n){i.subscribe("input",c,function(i){e(n,i)}),e(n,{type:"begin",latency:0})},disable:function(){n.each(c,function(){i.unsubscribe(this)})}}});
+//# sourceMappingURL=interactions.js.map

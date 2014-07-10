@@ -1,0 +1,2 @@
+define(["backbone","underscore"],function(e,t){"function"!=typeof Object.create&&(Object.create=function(e){function t(){}return t.prototype=e,new t});var n=e.Model.extend({constructor:function(n,c){var i={};t.each(n,function(e,n){if(t.isObject(e)){var c=Object.create(e),s=this.defaults&&this.defaults[n]&&t.isObject(this.defaults[n])?this.defaults[n]:{};i[n]=t.defaults(c,s)}else i[n]=e},this),e.Model.apply(this,[i,c])}});return n});
+//# sourceMappingURL=model.js.map

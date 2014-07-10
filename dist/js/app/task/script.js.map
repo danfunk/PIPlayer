@@ -1,0 +1,1 @@
+{"version":3,"file":"script.js","sources":["script.js.src.js"],"names":["define","global","settings","canvas","maxWidth","proportions","hooks","trialSets","stimulusSets","mediaSets","sequence"],"mappings":"AAIAA,QACCC,UACAC,UACCC,QACCC,SAAU,IACVC,YAAa,IAEdC,UAGDC,aACAC,gBACAC,aACAC"}

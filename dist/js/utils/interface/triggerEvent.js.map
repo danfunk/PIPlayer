@@ -1,0 +1,1 @@
+{"version":3,"file":"triggerEvent.js","sources":["triggerEvent.js.src.js"],"names":["define","pubsub","event","type","definitions","latency","data","timestamp","Date","handle","e","publish"],"mappings":"AAAAA,QAAQ,gBAAgB,SAASC,GAIhC,MAAO,UAAsBC,EAAMC,EAAKC,EAAaC,GAEpD,GAAIC,IACHC,WAAa,GAAIC,MACjBH,QAAWA,EACXI,OAAUL,EAAYK,OACtBN,KAAQA,EACRO,EAAMR,EAGPD,GAAOU,QAAQ,SAASL"}

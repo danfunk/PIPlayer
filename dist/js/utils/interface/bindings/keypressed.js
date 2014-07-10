@@ -1,0 +1,2 @@
+define(["jquery"],function(n){var e=[];n(document).on("keyup.keypressed",function(n){e[n.which]=!1});var o=function(o){var t=n.isArray(o.key)?o.key:[o.key],i="keydown.interface."+o.handle,c=n.map(t,function(n){return"string"==typeof n?n.toUpperCase().charCodeAt(0):n});this.on=function(o){n(document).on(i,function(t){e[t.which]||-1==n.inArray(t.which,c)||(e[t.which]=!0,o(t,"keydown"))})},this.off=function(){n(document).off(i)}};return function(e,t){n.extend(e,new o(t))}});
+//# sourceMappingURL=keypressed.js.map

@@ -1,0 +1,2 @@
+define(["jquery","app/task/settings","JSON"],function(e,r,n){var t=function(t){var u=r.logger&&r.logger.url,o=e.Deferred();if(!u)return o.resolve();var a={json:n.stringify(t)||""};return e.extend(a,r.metaData||{}),o=e.post(u,a),o=o.then(null,function(){return e.post(u,a)})};return t});
+//# sourceMappingURL=post.js.map

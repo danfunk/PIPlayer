@@ -1,0 +1,2 @@
+define(["underscore"],function(r){var n=function(n,a){if(r.isArray(n)){var i=Math.floor(Math.random()*n.length);return n[i]}if(r.isFunction(n))return n.call(a);if(r.isObject(n)){if(!r.isNumber(n.min)||!r.isNumber(n.max)||n.min>n.max)throw new Error("randomization objects need both a max and a minimum property, also max has to be larger than min");return n.min+(n.max-n.min)*Math.random()}return n};return n});
+//# sourceMappingURL=simpleRandomize.js.map

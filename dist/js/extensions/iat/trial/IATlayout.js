@@ -1,0 +1,2 @@
+define(["../data/properties","./layout","./simple_layout"],function(t,e,c){var r={1:{left:["concept1"],right:["concept2"]},2:{left:["attribute1"],right:["attribute2"]},3:{left:["attribute1","concept1"],right:["attribute2","concept2"]},4:{left:["attribute1","concept1"],right:["attribute2","concept2"]},5:{left:["concept2"],right:["concept1"]},6:{left:["attribute1","concept2"],right:["attribute2","concept1"]},7:{left:["attribute1","concept2"],right:["attribute2","concept1"]}};return function(i){return t.simpleLayout?c(r[i]):e(r[i])}});
+//# sourceMappingURL=IATlayout.js.map

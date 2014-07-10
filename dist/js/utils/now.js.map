@@ -1,0 +1,1 @@
+{"version":3,"file":"now.js","sources":["now.js.src.js"],"names":["define","nowFn","window","performance","now","mozNow","webkitNow","msNow","oNow","apply","Date"],"mappings":"AACAA,UAAU,WAET,GAAIC,EAcJ,OAVMC,QAAOC,cACZF,EAAQE,YAAYC,KACdD,YAAYE,QACZF,YAAYG,WACZH,YAAYI,OACZJ,YAAYK,MAKZP,EACN,WAAe,MAAOA,GAAMQ,MAAMN,cAChC,WAAgB,OAAQ,GAAIO"}

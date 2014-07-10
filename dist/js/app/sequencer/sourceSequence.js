@@ -1,0 +1,2 @@
+define(["models/collection","underscore"],function(r,t){var e=new r,n=function(r,t){for(var e in t)if(t[e]!==r[e])return!1;return!0};return t.extend(e,{nextWhere:function(r){for(;this.next()&&!n(this.current().data||{},r););return this.current()},lastWhere:function(r){for(;this.previous()&&!n(this.current().data||{},r););return this.current()}}),e});
+//# sourceMappingURL=sourceSequence.js.map
